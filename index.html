@@ -4,171 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charlote Nano</title>
-    <link rel="icon" type="image/png" href="assets/title-cha.png">
+    <!-- Favicon link pointing to your public assets folder -->
+    <link rel="icon" type="image/png" href="/assets/title-cha.png">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- React mounts your entire app inside this div -->
+    <div id="root"></div>
 
-    <div class="background-shapes">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
-        <div class="shape shape-4"></div>
-        <div class="shape shape-5"></div>
-    </div>
-    
-    <nav class="main-nav">
-        <a href="#top" class="nav-brand-link">
-            <img src="assets/cha-titleheader.png" alt="Charlote Nano Logo" class="cha-logo">
-        </a>
-        <ul class="nav-links">
-            <li><a href="#profile-content">Profile</a></li>
-            <li><a href="uiux_port.html">UI/UX</a></li>
-            <li><a href="graphdes_port.html">Graphic Design</a></li>
-            <li><a href="illus_port.html">Illustration</a></li>
-        </ul>
-    </nav>
-    
-    <header class="header-page" id="top">
-        <div class="welcome-strip top-strip">CHARLOTE NANO * CHARLOTE NANO * CHARLOTE NANO * CHARLOTE NANO * CHARLOTE NANO * CHARLOTE NANO * CHARLOTE NANO * CHARLOTE NANO * CHARLOTE NANO *</div>
-    
-        <div class="portfolio-title-card">
-            <img src="assets/cha-titleheader.png" alt="Charlote Nano - Logo" class="title-logo">
-
-            <div class="header-details">
-                <a class="tag" href="#profile-content">PROFILE</a>
-                <a class="tag" href="uiux_port.html">UI/UX DESIGNS</a>
-                <a class="tag" href="graphdes_port.html">GRAPHIC DESIGN</a>
-                <a class="tag" href="illus_port.html">ILLUSTRATION</a>
-            </div>
-        </div>
-    </header>
-    
-    <main class="main-page" id="profile-content">
-        <div class="portfolio-content-wrap">
-            
-            <section class="left-column">
-                <div class="profile-card">
-                    <div class="profile-image-container">
-                        <img src="assets/title-cha.png" alt="Charlote Nano profile">
-                    </div>
-                    
-                    <div class="about-me">
-                        <h3>ABOUT ME</h3>
-                        <p>Hi, I'm Charlote Nano, a BS Computer Science student at Technological University of the Philippines - Manila. I am open for opportunities to work in a dynamic and creative environment where I can contribute my artistic skills.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section class="right-column">
-
-                <div class="info-section education">
-                    <h2>EDUCATION</h2>
-                    <div class="education-item">
-                        <p>
-                            <img src="assets/college-logo.png" alt="TUP Logo" class="school-logo">
-                            Technological University of the Philippines, Manila (2023 - Present)
-                        </p>
-                        <p>
-                            <img src="assets/shs-logo.png" alt="HNCS Logo" class="school-logo">
-                            Holy Nazarene Christian School, Tanza Cavite (2021 - 2023)
-                        </p>
-                        <p>
-                            <img src="assets/jhs-logo.png" alt="ASHI Logo" class="school-logo">
-                            Amaya School of Home Industries, Tanza Cavite (2017 - 2021)
-                        </p>
-                        <p>
-                            <img src="assets/elem-logo.png" alt="AES Logo" class="school-logo">
-                            Amaya Elementary School, Tanza Cavite (2011 - 2017)
-                        </p>
-                    </div>
-                </div>
-
-                <div class="info-section experience">
-                    <h2>EXPERIENCE</h2>
-                    <div class="experience-item">
-                        <p>
-                            <img src="assets/devcon-logo.png" alt="DEVCON Logo" class="exp-logo">
-                            DEVCON Manila Chapter (Operations Logistics Specialist)
-                        </p>
-                        <p>
-                            <img src="assets/awstup-logo.png" alt="AWSTUP Logo" class="exp-logo">
-                            AWS Learning Club - TUP Manila (Executive for Media and Design)
-                        </p>
-                        <p>
-                            <img src="assets/gdg-logo.png" alt="GDG Logo" class="exp-logo">
-                            Google Developers Group on Campus - TUP Manila (Googlet Merchandise Designer)
-                        </p>
-                        <p>
-                            <img src="assets/compass-logo.png" alt="COMPASS Logo" class="exp-logo">
-                            Computer Students' Association (Former Head of Creatives)
-                        </p>
-                        <p>
-                            <img src="assets/csc-logo.png" alt="CSC Logo" class="exp-logo">
-                            College of Science Student Council (Former Creatives Associate)
-                        </p>
-                    </div>
-                </div>
-
-                <div class="info-section strengths">
-                    <h2>SOFT SKILLS</h2>
-                    <div class="tag-list">
-                        <span class="skill-tag">Leadership</span>
-                        <span class="skill-tag">Creativity</span>
-                        <span class="skill-tag">Time Management</span>
-                        <span class="skill-tag">Team Collaboration</span>
-                    </div>
-                </div>
-
-                <div class="info-group">
-                    <div class="info-section software">
-                        <h2>SOFTWARE</h2>
-                        <div class="app-item"> 
-                            <p><img src="assets/photoshop-logo.png" alt="Photoshop" class="app-logo"></p>
-                            <p><img src="assets/figma-logo.png" alt="Figma" class="app-logo"></p>
-                            <p><img src="assets/canva-logo.png" alt="Canva" class="app-logo"></p>
-                            <p><img src="assets/ibis-logo.png" alt="Ibis Paint X" class="app-logo"></p>
-                        </div>
-                    </div> 
-                    <div class="info-section language">
-                        <h2>LANGUAGES</h2>
-                        <div class="lang-item"> 
-                            <p><img src="assets/HTML-logo.png" alt="HTML" class="lang-logo"></p>
-                            <p><img src="assets/CSS-logo.png" alt="CSS" class="lang-logo"></p>
-                            <p><img src="assets/Java-logo.png" alt="Java" class="lang-logo"></p>
-                            <p><img src="assets/JS-logo.png" alt="Javascript" class="lang-logo"></p>
-                            <p><img src="assets/Py-logo.png" alt="Python" class="lang-logo"></p>
-                            <p><img src="assets/C-logo.png" alt="C/C++" class="lang-logo"></p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
-
-    <footer class="main-footer">
-        <p>&copy; 2025 Charlote Nano. All rights reserved.</p>
-        <div class="social-info">
-            <p class="contact-detail-item">
-                <img src="./assets/phone-icon.png" alt="Phone Icon" class="contact-icon"> 
-                (+63) 956-486-7375
-            </p>
-            <p class="contact-detail-item">
-                <img src="./assets/instagram-icon.png" alt="Instagram Icon" class="contact-icon"> 
-                chaerlotes
-            </p>
-            <p class="contact-detail-item">
-                <img src="./assets/email-icon.png" alt="Email Icon" class="contact-icon"> 
-                charlotenano29@gmail.com
-            </p>
-        </div>
-    </footer>
-    
+    <!-- Vite entry point script -->
+    <script type="module" src="/src/main.jsx"></script>
 </body>
-
 </html>
-
